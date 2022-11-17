@@ -1,0 +1,145 @@
+/*колір основного тексту : #757575;*/
+/*колір додаткового тексту : #212121;*/
+/*колір акценту : #2196F3;*/
+/*колір лого шапка : #000000;*/
+/*колір білого тексту : #FFFFFF);*/
+/*додатковий колір фону : #F5F4FA;*/
+/*колір баннера : #2F303A; */
+:root{
+    --primary-text-color:  #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #F5F4FA;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+/*шапка*/
+
+.logo{
+    color:var(--accent-color);
+}
+
+.logo-header{
+    color: #000000;
+
+}
+
+ul{
+ list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: var(--title-text-color);
+}
+
+.link.contacts{
+    color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus{
+   color:var(--accent-color);
+}
+
+.link.current{
+    color: var(--accent-color);
+}
+
+/*герой*/
+
+.hero{
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.hero-button{
+    background-color: var(--accent-color);
+    color:  #FFFFFF;
+  
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/*особливості*/
+
+.specials-title{
+  color: var(--title-text-color);  
+}
+
+/*послуги*/
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+/*команда*/
+
+.komand{
+    background-color: var(--primary-bg-color);
+}
+
+.komand-title{
+  color: var(--title-text-color);
+}
+
+/*підвал*/
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: #FFFFFF;
+}
+
+.address{
+    color: #FFFFFF;
+}
+/*портфоліо фільтри*/
+.portfolio-btn{
+    background-color: var(--primary-bg-color);
+    color: var(--title-text-color);
+    border: none;
+    border-radius: 4px;
+    }
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/*проекти*/
+.project-title{
+    color: var(--title-text-color);
+}
+
+.project-text{
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
